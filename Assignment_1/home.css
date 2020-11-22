@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background:url(./home-background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width:450px;
+    background: rgba(0,0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+    font-family: Times New Roman;
+}
+
+.box img{
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 50;
+}
+
+.box p{
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+
+h1{
+    color: aliceblue;
+}
+#nav{
+	height:50px;
+	background:rgb(11, 101, 202);
+}
+#nav ul{
+	padding-top:13px;
+	padding-left:10px;
+}
+
+#nav li{
+	list-style:none;
+	float:left;
+    padding-right:20px;
+}
+
+a{
+	color:#fff;
+	text-decoration:none;
+}
+#main{
+
+	float:left;
+	width:60%;
+}
+
+section h1{
+	height:50px;
+    background:rgb(11, 101, 202);
+    text-align: center;
+    padding:15px 0 0 0;
+    
+    
+}
+
+.hobbies-list{
+    /* outer area */
+    margin:center;
+    /* every element has but isnt visible */
+    
+    /* house with garden area garden area is padding */
+    padding:5px;
+    /* main area */
+    width:150px;
+    height: 100px;
+    display:inline-block;
+    text-align: center;
+    font-size: 20px;
+    background: rgba(0,0, 0, 0.4);
+    color: white;
+    font-weight:1000;
+
+
+    /* display:inline-block; */
+
+}
+.hobbies-list:hover{
+   cursor: pointer;
+   border: 2px solid #3498db;
+   border-radius: 10px;
+   
+}
+#Hobbies{
+    margin-bottom:10px;
+}
+.interest-list{
+    /* outer area */
+    margin:auto;
+    /* every element has but isnt visible */
+    
+    /* house with garden area garden area is padding */
+    padding:5px;
+    /* main area */
+    width:150px;
+    height: 100px;
+    display:inline-block;
+    text-align: center;
+    font-size: 20px;
+    background: rgba(0,0, 0, 0.4);
+    color: white;
+    font-weight:1000;
+
+
+
+}
+.interest-list:hover{
+   cursor: pointer;
+   border: 2px solid #3498db;
+   border-radius: 10px;
+   
+}
+#personalsummary{
+    background: rgba(0,0, 0, 0.4);
+    color: white;
+    font-weight:1000;
+   
+    height: 200px;
+    /* padding: 10px; */
+   
+
+}
+#professionalsummary{
+    background: rgba(0,0, 0, 0.4);
+    color: white;
+    font-weight:1000;
+    width:auto;
+    height: 200px
+    /* padding: 10px; */
+
+}
+
+#contact{
+	height:200px;
+    background:rgba(0,0, 0, 0.4);
+    color: white;
+}
+
+#contact ul{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+
+}
+
+#contact li{
+	list-style:none;
+	float:left;
+    padding-right:20px;
+    background:rgba(0,0, 0, 0.4);
+    display:inline-block;
+    width:150px;
+    height: 100px;
+    overflow: hidden;
+    /* height:40px; */
+}
+.fab:hover {  
+    opacity: 0.9;  
+}  

@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    background-image: url("./login-backgound.jpg");
+}
+
+.login{
+    width:450px;
+    overflow: hidden;
+    margin: auto;
+    margin-top:140px;
+    background:white;
+    border-radius: 10px;
+    padding: 20px;
+    border:10px solid silver
+
+
+}
+.login h2{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.login p{
+    
+        font: bold 150%/100% "Lucida Grande";
+        position: relative;
+        color: #464646;
+      
+}
+
+.login input{
+    border: 0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.25s;
+    
+}
+.login input:focus{
+    width :420px;
+    border-color: lightblue;
+    background-color: rgb(12, 12, 141);
+    color: white;
+    font-weight: 500;
+    }
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.login .submit{
+    display: block;
+    padding: 5px;
+    width: 415px;
+    height: 35px;
+    background-color: #3498db ;
+    border-radius: 5px;
+    border:0;
+    font-size: 20px;
+    cursor: pointer;
+    margin:20px auto;
+    outline: none;
+    transition: 0.25s;
+}
+.login .submit:hover{
+    background-color:darkblue;
+   
+}
